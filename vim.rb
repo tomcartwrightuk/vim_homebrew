@@ -30,7 +30,7 @@ class Vim < Formula
                           "--enable-rubyinterp",
                           "--enable-cscope",
                           "--with-ruby-command=/usr/bin/ruby",
-                          "--xterm_clipboard",
+                          "--enable-xterm_clipboard",
                           "--with-features=huge"
     system "make"
 
